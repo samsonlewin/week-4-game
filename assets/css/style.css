@@ -1,0 +1,84 @@
+body{
+	background-image: url(../images/congruent_pentagon.png);
+}
+
+.header, .score{
+	padding: 20px;
+	color: #ffffff;
+	background-color: #c77131;
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 20px;
+	opacity : 0.6;
+}
+
+.instructions{
+	padding: 50px;
+	color: #b1f6cb;
+	background-color: #515357;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	opacity : 0.6;
+}
+
+
+.number{
+	padding: 20px;
+	color: #ffffff;
+	background-color: #60c782;
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 20px;
+	opacity : 0.6;
+	width: 38%;
+	height: 50px;
+	display: inline;
+	float: left;
+}
+
+.counter{
+	padding: 20px;
+	color: #ffffff;
+	background-color: #56fdfa;
+	text-align: center;
+	margin-left: 50px;
+	width: 38%;
+	height: 50px;
+	margin-right: 50px;
+	margin-top: 20px;
+	opacity : 0.6;
+	display: inline;
+	float: right;
+}
+
+.blue-cristal, .pink-cristal, .yellow-cristal, .greem-cristal{
+	display: inline;
+
+}
+.crstal1, .crstal2, .crstal3, .crstal4{
+	width: 100px;
+	margin: 20px;
+	cursor: pointer;
+}
+
+.cristals{
+	clear : both;
+	text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

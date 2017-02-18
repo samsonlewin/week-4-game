@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cristals</title>
+	 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	 
+</head>
+<body>
+<div class="header">Cristal Collectors!</div>
+<div class="instructions">
+<p>You will be given a ramdom number at the start of the game.</p> 
+<p>there are four cristals below. By Clicking on a cristal you will add a specific amount of points to your total score.</p> 
+<p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p>
+<p>The value of each cristal is hidden from you until you click on it</p>
+<p>Each time the game starts, the game will change the value of each cristal</p>
+ </div>
+ <div class="data">
+	<div class="number">...</div>
+	 <div class="counter">
+	 	<div class="wins">wins : <span class="yes"></span></div>
+	 	<div class="losses">losses : <span class="no"></span></div>
+	 </div>
+	 <div class="cristals">
+	 	<div class="blue-cristal">
+	 		<img class="crstal1" src="assets/images/crstal1.png">
+	 	</div>
+	 	<div class="pink-cristal">
+	 		<img class="crstal2" src="assets/images/crstal2.png">
+	 	</div>
+	 	<div class="yellow-cristal">
+	 		<img class="crstal3" src="assets/images/crstal3.png">
+	 	</div>
+	 	<div class="greem-cristal">
+	 		<img class="crstal4" src="assets/images/crstal4.png">
+	 	</div>
+	 </div>
+	 <div class="score">Your total score is <span class="scoreNumber"></span></div>
+ </div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
