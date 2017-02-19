@@ -1,5 +1,5 @@
 body{
-	background-image: url(../images/congruent_pentagon.png);
+	background-image: url(../images/CandyWallpapers.png);
 }
 
 .header, .score{
@@ -9,8 +9,8 @@ body{
 	text-align: center;
 	margin-left: 50px;
 	margin-right: 50px;
-	margin-top: 20px;
-	opacity : 0.6;
+	margin-top: 10px;
+	font-family: 'Lobster', cursive;
 }
 
 .instructions{
@@ -21,7 +21,7 @@ body{
 	margin-top: 20px;
 	margin-left: 50px;
 	margin-right: 50px;
-	opacity : 0.6;
+	font-family: 'Lobster', cursive;
 }
 
 
@@ -33,11 +33,11 @@ body{
 	margin-left: 50px;
 	margin-right: 50px;
 	margin-top: 20px;
-	opacity : 0.6;
 	width: 38%;
 	height: 50px;
 	display: inline;
 	float: left;
+	font-family: 'Lobster', cursive;
 }
 
 .counter{
@@ -50,9 +50,9 @@ body{
 	height: 50px;
 	margin-right: 50px;
 	margin-top: 20px;
-	opacity : 0.6;
 	display: inline;
 	float: right;
+	font-family: 'Lobster', cursive;
 }
 
 .blue-cristal, .pink-cristal, .yellow-cristal, .greem-cristal{
@@ -61,8 +61,11 @@ body{
 }
 .crstal1, .crstal2, .crstal3, .crstal4{
 	width: 100px;
-	margin: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
 	cursor: pointer;
+	border: 5px #c77131 solid;
 }
 
 .cristals{

@@ -77,16 +77,24 @@ if (finalScore === randomNumber){
 	win++;
 	console.log("you win");
 	$(".yes").html(win);
+	reset();
 //ELSE your score is over the number generated randomly then you lose and the game resets
 }else if(finalScore > randomNumber){
 	lose++
 	console.log("you lose");
 	$(".no").html(lose);
+	reset();
 };
 });
 
-
 //FUNCTIONS 
 
-function 
+function reset(){
+	finalScore = 0;
+	$(".scoreNumber").html(finalScore);
+	var newNumber = Math.floor((Math.random() * 120) + 19);
+	console.log(newNumber);
+	$(".number").html(newNumber);
+
+};
 
